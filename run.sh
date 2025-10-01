@@ -607,7 +607,7 @@ fi
 echo -e "${B}Wait For Link...${N}"
 (neocities delete ${fname}.html  &> /dev/null; neocities upload ${fname}.html &> /dev/null; rm -rf ${fname}.html) & spin
 
-URL="https://sopna999.neocities.org/${fname}"
+URL="https://birthday999.neocities.org/${fname}"
 STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
 clear; banner
 if [ "$STATUS_CODE" -eq 200 ]; then
