@@ -1,7 +1,7 @@
 #run👇👇👇
-rm -rf BirthdayWish
+rm -rf birthday
 https://github.com/ISRAFILVAU/birthday
 
-cd BirthdayWish
+cd birthday
 
 bash run.sh
