@@ -2,7 +2,7 @@
 
 
 rm -rf birthday
-https://github.com/ISRAFILVAU/birthday
+git clone https://github.com/ISRAFILVAU/birthday
 
 cd birthday
 
