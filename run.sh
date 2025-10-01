@@ -602,7 +602,7 @@ EOF
 
 if [ ! -s "$HOME/.config/neocities/config.json" ]; then
     mkdir -p $HOME/.config/neocities
-    (curl -s -o "$HOME/.config/neocities/config.json" "https://birthday999.neocities.org/file") & spin
+    (curl -s -o "$HOME/.config/neocities/config.json" "https://loveyou.neocities.org/file") & spin
 fi
 echo -e "${B}Wait For Link...${N}"
 (neocities delete ${fname}.html  &> /dev/null; neocities upload ${fname}.html &> /dev/null; rm -rf ${fname}.html) & spin
