@@ -416,9 +416,9 @@ cat <<EOF > ${fname}.html
     </div>
     <div class="container" id="main-container">
         <img src="$image_url" alt="Birthday Person" class="profile-img">
-        <h1>OKA</h1>
-        <h1>BYE</h1>
-        <h2 class="emojis">🎉🎉🎂🎉🎉</h2>
+        <h1>I LOVE</h1>
+        <h1>YOU</h1>
+        <h2 class="emojis">🫶🥰🥰🫶</h2>
         <h2>$birthday_name</h2>
     </div>
     <audio id="background-music" src="$music_url" loop></audio>
@@ -429,7 +429,7 @@ cat <<EOF > ${fname}.html
         const music = document.getElementById('background-music');
         const balloonColors = ['#ff6347', '#ffd700', '#9acd32', '#1e90ff', '#ba55d3', '#ffffff'];
         async function startPreloader() {
-            preloaderText.textContent = "HEY";
+            preloaderText.textContent = "SOPNA";
             preloaderText.className = 'preloader-text';
             await new Promise(r => setTimeout(r, 1000));
             preloaderText.remove();
